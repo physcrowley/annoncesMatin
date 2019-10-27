@@ -4,6 +4,10 @@ function sendTweet(user, tweet, tweet_type) {
 
     var twitterService = getTwitterService_();
 
+    // TODO add code to get authorization
+    // ... using app.twitter.com and OAuth to share
+    // ... user API keys and secrets with the Google Script
+
     // If the Google Apps user has authorized the Twitter service
     if (twitterService.hasAccess()) {
 
