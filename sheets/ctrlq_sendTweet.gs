@@ -1,3 +1,5 @@
+// Sample code from https://ctrlq.org/code/19705-send-tweets-google-sheets
+
 function sendTweet(user, tweet, tweet_type) {
 
     var twitterService = getTwitterService_();
